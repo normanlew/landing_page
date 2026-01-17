@@ -108,3 +108,20 @@ a {
   width: 150px;
   height: 150px;
 }
+
+.third_section {
+  padding: 100px 200px;
+  background-color: #E5E7EB;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 300px;
+}
+
+.third_section p{
+  margin: 0;
+}
+
+.quoted_person {
+  text-align: right;
+  font-weight: bold;
+}
