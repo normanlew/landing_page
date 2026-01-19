@@ -61,7 +61,7 @@ a {
 
 .about_right_jpg {
   height: 300px;
-  width: 700px;
+  width: 600px;
 }
 
 ul {
@@ -78,9 +78,9 @@ a {
   text-decoration: none;
 }
 
-.sign_up,
-.call_to_action {
+.sign_up {
   background-color: #3882F6;
+  border-color: #3882F6;
 }
 
 .second_section {
@@ -126,4 +126,33 @@ a {
 .quoted_person {
   text-align: right;
   font-weight: bold;
+}
+
+.fourth_section {
+  padding: 80px 120px;
+}
+
+.call_to_action {
+  display: flex;
+  background: #3882F6;
+  justify-content: space-between;
+  color: #E5E7EB;
+  padding: 40px 70px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.call_to_action button {
+  background-color: #3882F6;
+  border: 1px solid #ddd;
+}
+
+.call_to_action_text h2,p {
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
